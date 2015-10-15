@@ -1,7 +1,7 @@
 .container {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1000px;
+	max-width: 1150px;
 }
 
 header div {
@@ -29,16 +29,66 @@ header div {
 
 .carousel ul {
 	box-sizing: border-box;
-	max-width: 1000px;
-	max-height: 380px;
+	width: 100%;
+	height: 500px;
 	overflow: hidden;
+	margin: 0;
 }
 .carousel li {
 	list-style: none;
-	display: inline;
+	display: inline-block;
 	box-sizing: border-box;
+	margin-bottom: 10px;
 }
 
 .carousel li img {
-	max-width: 1000px;
+	width: 100%;
+
+}
+
+.middle li {
+	list-style: none;
+	float: left;
+}
+
+main::after {
+	content: ".";
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+
+.middle-left {
+	width: 43.7%;
+	float: left;
+}
+
+.middle-right {
+	width: 55.6%;
+	float: right;
+}
+
+.middle img {
+	width: 100%;
+}
+
+.middle-right .middle-down {
+	margin-top: 3px;
+}
+
+.middle-down div:first-child {
+	width: 49.5%;
+	float: left;
+
+}
+.middle-down div:nth-child(2) {
+	width: 49.5%;
+	float: right;
+}
+footer {
+	
+}
+
+ul {
+	-webkit-padding-start: 0;
 }
