@@ -4,12 +4,12 @@
     max-width: 1150px;
 }
 header {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: #fff;
-	border-bottom: 1px solid #ADA7A7;
-	padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ADA7A7;
+    padding: 15px 0;
 }
 
 .header-list {
@@ -17,7 +17,7 @@ header {
     margin-left: 80px;
 }
 header div div {
-	display: inline-block;
+    display: inline-block;
 }
 .header-list li {
     display: inline-block;
@@ -35,6 +35,13 @@ header div div {
     color: black;
 }
 
+main {
+    padding-top: 94px;
+}
+
+.favorite {
+    color: red;
+}
 .carousel ul {
     box-sizing: border-box;
     width: 100%;
@@ -148,4 +155,12 @@ li {
     -webkit-margin-after: 0;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
+}
+
+.all-goods-list li {
+    list-style: none;
+}
+.goods-list img {
+    width: auto;
+    max-width: 200px;
 }
